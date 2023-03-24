@@ -4,20 +4,20 @@ Data includes: 16 members from A. thaliana, 16 members from S. lycosperium, and 
 
 Data is fasta files of assembled genomic sequence data
 
-Made fasta file with DNA sequences of all Nicotiana benthamiana SBP genes named Nb_SBP_seq.fasta
-Also downloaded fasta file of N. benthi SBP amino acid and named Nb_SBP_AA.fasta
+Made fasta file with CDS sequences of Arabidopsis thaliana, Solanum lycopersicum, and Nicotiana benthamiana SBP genes named Fam_SBP_CDS.fasta
 
 
-Produce Alignment of N. benthi DNA sequence with ClustalW
+Produce Alignment of SBP CDS sequence with ClustalW
 $ cd C:/Users/austm/Documents/"UW Grad School"/Coursework/"2023 Spring"/Phylo563/myProject/Data
-$ C:/Users/austm/Documents/"UW Grad School"/Software/ClustalW/clustalw2 -ALIGN -INFILE=Nb_SBP_seq.fasta -OUTFILE=Nb_SBP_seq_aligned.fasta -OUTPUT=FASTA
+$ C:/Users/austm/Documents/"UW Grad School"/Software/ClustalW/clustalw2 -ALIGN -INFILE=Fam_SBP_CDS.fasta -OUTFILE=Fam_SBP_CDS_aligned.fasta -OUTPUT=FASTA
 
 Generates an aligned fasta file 
 
-Nucleotide sequence alignment with MUSCLE failed, so attempted alignment with amino acid sequence
 
-Amino Acid Alignment with MUSCLE
-$ cd C:/Users/austm/Documents/"UW Grad School"/Coursework/"2023 Spring"/Phylo563/myProject/Data
-$ C:/Users/austm/Documents/"UW Grad School"/Software/Mesquite_Folder/muscle3.8.31_i86win32 -in Nb_SBP_AA.fasta -out Nb_SBP_AA_aligned.fasta
+Running IQ-TREE 2 on example data
+$  C:/Users/austm/Documents/"UW Grad School"/Software/iqtree-2.2.0-Windows/bin/iqtree2 -s  C:/Users/austm/Documents/"UW Grad School"/Software/iqtree-2.2.0-Windows/example.phy
 
-Generated aligned amino acid file for Nicotiana benthamiana
+Run IQ-Tree2 with default parameters on my dataset
+$  C:/Users/austm/Documents/"UW Grad School"/Software/iqtree-2.2.0-Windows/bin/iqtree2 -s  C:/Users/austm/Documents/"UW Grad School"/Coursework/"2023 Spring"/Phylo563/myProject/Data/Fam_SBP_CDS_aligned
+
+Generated preliminary tree in text file format

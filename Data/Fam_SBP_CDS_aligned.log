@@ -1,0 +1,14 @@
+IQ-TREE multicore version 2.2.0 COVID-edition for Windows 64-bit built Jun  1 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    LAPTOP-819NPT48 (AVX2, FMA3, 7 GB RAM)
+Command: C:\Users\austm\Documents\UW Grad School\Software\iqtree-2.2.0-Windows\bin\iqtree2.exe -s C:/Users/austm/Documents/UW Grad School/Coursework/2023 Spring/Phylo563/myProject/Data/Fam_SBP_CDS_aligned
+Seed:    585440 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Mar 23 14:09:31 2023
+Kernel:  AVX+FMA - 1 threads (4 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 4 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file C:/Users/austm/Documents/UW Grad School/Coursework/2023 Spring/Phylo563/myProject/Data/Fam_SBP_CDS_aligned ... ERROR: File not found C:/Users/austm/Documents/UW Grad School/Coursework/2023 Spring/Phylo563/myProject/Data/Fam_SBP_CDS_aligned

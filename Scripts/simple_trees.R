@@ -5,8 +5,7 @@ library(ape)
 library(adegenet)
 library(phangorn)
 
-pwd
-dna <- fasta2DNAbin(file="http://adegenet.r-forge.r-project.org/files/usflu.fasta")
+dna <- fasta2DNAbin(file="C:/Users/austm/Documents/UW Grad School/Coursework/2023 Spring/Phylo563/myProject/Data/N_benthi_SBP_seq.fasta")
 
 D <- dist.dna(dna, model="TN93")
 
