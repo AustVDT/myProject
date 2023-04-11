@@ -1,0 +1,502 @@
+IQ-TREE multicore version 2.2.0 COVID-edition for Windows 64-bit built Jun  1 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    LAPTOP-819NPT48 (AVX2, FMA3, 7 GB RAM)
+Command: C:\Users\austm\Documents\UW Grad School\Software\iqtree-2.2.0-Windows\bin\iqtree2.exe -s C:/Users/austm/Documents/UW Grad School/Coursework/2023 Spring/Phylo563/myProject/Data/Fam_SBP_CDS_aligned_muscle.fasta
+Seed:    763475 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Apr 11 12:35:11 2023
+Kernel:  AVX+FMA - 1 threads (4 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 4 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file C:/Users/austm/Documents/UW Grad School/Coursework/2023 Spring/Phylo563/myProject/Data/Fam_SBP_CDS_aligned_muscle.fasta ... Fasta format detected
+Reading fasta file: done in 0.0107944 secs using 144.8% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.0104649 secs
+Alignment has 88 sequences with 5342 columns, 4065 distinct patterns
+3156 parsimony-informative, 995 singleton sites, 1191 constant sites
+                                                                             Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.0015581 secs
+   1  CrCRR1                                                                        30.76%    failed      0.00%
+   2  Niben101Scf06461g03009.1|Nicotiana_benthamiana|SBP|Niben101Scf06461g03009.1   81.47%    failed      3.25%
+   3  AtSPL7.3                                                                      54.01%    passed     80.99%
+   4  AtSPL7.2                                                                      56.42%    passed     76.77%
+   5  AtSPL7.1                                                                      54.96%    passed     70.62%
+   6  Solyc01g080670.2.1                                                            57.26%    failed      3.49%
+   7  Niben101Scf11812g00024.1|Nicotiana_benthamiana|SBP|Niben101Scf11812g00024.1   59.79%    failed      0.02%
+   8  Niben101Scf39270g00002.1|Nicotiana_benthamiana|SBP|Niben101Scf39270g00002.1   78.38%    passed     30.18%
+   9  Niben101Scf00878g04013.1|Nicotiana_benthamiana|SBP|Niben101Scf00878g04013.1   85.51%    failed      0.09%
+  10  Niben101Scf04462g01007.1|Nicotiana_benthamiana|SBP|Niben101Scf04462g01007.1   85.96%    failed      0.06%
+  11  Solyc04g045560.2.1                                                            80.29%    passed      6.68%
+  12  Solyc05g015510.2.1                                                            73.94%    passed     88.78%
+  13  Niben101Scf03422g04024.1|Nicotiana_benthamiana|SBP|Niben101Scf03422g04024.1   87.59%    passed     73.15%
+  14  Niben101Scf01602g03005.1|Nicotiana_benthamiana|SBP|Niben101Scf01602g03005.1   74.05%    passed     62.14%
+  15  Niben101Scf19371g00001.1|Nicotiana_benthamiana|SBP|Niben101Scf19371g00001.1   74.05%    passed     80.73%
+  16  AtSPL11.2                                                                     77.87%    passed     79.92%
+  17  AtSPL11.3                                                                     77.87%    passed     79.92%
+  18  AtSPL11.1                                                                     77.87%    passed     79.92%
+  19  AtSPL11.4                                                                     77.87%    passed     79.92%
+  20  AtSPL10.2                                                                     77.70%    passed     65.85%
+  21  AtSPL10.1                                                                     77.70%    passed     65.85%
+  22  AtSPL10.4                                                                     77.70%    passed     65.85%
+  23  AtSPL10.3                                                                     77.70%    passed     65.85%
+  24  AtSPL2.3                                                                      76.41%    passed     18.18%
+  25  AtSPL2.2                                                                      76.41%    passed     18.18%
+  26  AtSPL2.1                                                                      76.41%    passed     18.18%
+  27  AtSPL9.1                                                                      78.88%    passed     12.95%
+  28  Niben101Scf00821g02001.1|Nicotiana_benthamiana|SBP|Niben101Scf00821g02001.1   69.67%    failed      0.00%
+  29  Niben101Scf20316g00003.1|Nicotiana_benthamiana|SBP|Niben101Scf20316g00003.1   73.44%    failed      0.02%
+  30  Solyc05g012040.2.1                                                            68.61%    failed      0.05%
+  31  Niben101Scf01310g00001.1|Nicotiana_benthamiana|SBP|Niben101Scf01310g00001.1   71.42%    failed      0.11%
+  32  Niben101Scf02151g04021.1|Nicotiana_benthamiana|SBP|Niben101Scf02151g04021.1   71.30%    failed      0.59%
+  33  AtSPL15.1                                                                     80.06%    failed      2.24%
+  34  Niben101Scf10743g02013.1|Nicotiana_benthamiana|SBP|Niben101Scf10743g02013.1   77.76%    failed      0.85%
+  35  Niben101Scf05439g04002.1|Nicotiana_benthamiana|SBP|Niben101Scf05439g04002.1   83.32%    failed      0.12%
+  36  Niben101Scf10743g02014.1|Nicotiana_benthamiana|SBP|Niben101Scf10743g02014.1   82.83%    failed      3.50%
+  37  Solyc01g090730.2.1                                                            83.15%    failed      0.47%
+  38  Solyc10g078700.1.1                                                            79.05%    passed     13.75%
+  39  Niben101Scf00340g00006.1|Nicotiana_benthamiana|SBP|Niben101Scf00340g00006.1   70.97%    passed     22.55%
+  40  Niben101Scf04740g00007.1|Nicotiana_benthamiana|SBP|Niben101Scf04740g00007.1   78.27%    passed     33.57%
+  41  Niben101Scf00037g02016.1|Nicotiana_benthamiana|SBP|Niben101Scf00037g02016.1   78.04%    failed      3.15%
+  42  Niben101Scf03494g12028.1|Nicotiana_benthamiana|SBP|Niben101Scf03494g12028.1   80.51%    failed      3.82%
+  43  AtSPL8.2                                                                      86.13%    failed      0.00%
+  44  AtSPL8.1                                                                      81.24%    failed      0.00%
+  45  AtSPL6.1                                                                      77.20%    failed      1.19%
+  46  Solyc10g018780.1.1                                                            83.49%    failed      0.00%
+  47  Solyc05g015840.2.1                                                            82.42%    passed     62.59%
+  48  Niben101Scf01950g02001.1|Nicotiana_benthamiana|SBP|Niben101Scf01950g02001.1   82.25%    passed      8.47%
+  49  Niben101Scf00366g00008.1|Nicotiana_benthamiana|SBP|Niben101Scf00366g00008.1   92.03%    passed     86.58%
+  50  AtSPL13a.2                                                                    79.78%    failed      1.50%
+  51  AtSPL13a.1                                                                    79.78%    failed      1.50%
+  52  AtSPL13b.1                                                                    79.78%    failed      1.50%
+  53  AtSPL5.1                                                                      89.78%    failed      0.00%
+  54  AtSPL4.2                                                                      90.17%    failed      0.00%
+  55  AtSPL4.1                                                                      90.17%    failed      0.00%
+  56  AtSPL14.1                                                                     41.82%    passed     16.14%
+  57  AT1G76580.1                                                                   44.46%    failed      0.92%
+  58  AtSPL3.1                                                                      92.59%    failed      0.00%
+  59  Niben101Scf00687g04018.1|Nicotiana_benthamiana|SBP|Niben101Scf00687g04018.1   47.38%    failed      0.04%
+  60  Niben101Scf02558g00030.1|Nicotiana_benthamiana|SBP|Niben101Scf02558g00030.1   45.10%    failed      1.43%
+  61  Solyc01g068100.2.1                                                            44.12%    failed      0.47%
+  62  Niben101Scf01773g04003.1|Nicotiana_benthamiana|SBP|Niben101Scf01773g04003.1   44.74%    passed      5.25%
+  63  Niben101Scf09781g00016.1|Nicotiana_benthamiana|SBP|Niben101Scf09781g00016.1   44.29%    failed      1.25%
+  64  Solyc04g064470.1.1                                                            90.57%    passed      7.27%
+  65  Niben101Scf14708g00003.1|Nicotiana_benthamiana|SBP|Niben101Scf14708g00003.1   94.61%    failed      0.54%
+  66  Niben101Scf01671g03003.1|Nicotiana_benthamiana|SBP|Niben101Scf01671g03003.1   75.01%    failed      0.01%
+  67  Solyc05g053240.2.1                                                            41.31%    failed      0.00%
+  68  AtSPL12.1                                                                     47.88%    failed      0.03%
+  69  AtSPL1.1                                                                      50.47%    passed     53.36%
+  70  Solyc07g062980.2.1                                                            92.53%    passed     33.78%
+  71  Niben101Scf11224g00008.1|Nicotiana_benthamiana|SBP|Niben101Scf11224g00008.1   92.92%    passed      5.73%
+  72  Niben101Scf00347g00011.1|Nicotiana_benthamiana|SBP|Niben101Scf00347g00011.1   90.96%    failed      0.53%
+  73  Niben101Scf07953g00014.1|Nicotiana_benthamiana|SBP|Niben101Scf07953g00014.1   91.01%    failed      0.25%
+  74  Solyc07g053810.2.1                                                            91.69%    failed      0.02%
+  75  Niben101Scf01426g05012.1|Nicotiana_benthamiana|SBP|Niben101Scf01426g05012.1   89.72%    failed      0.02%
+  76  Niben101Scf08374g06004.1|Nicotiana_benthamiana|SBP|Niben101Scf08374g06004.1   89.44%    failed      0.04%
+  77  Solyc03g114850.2.1                                                            85.06%    failed      3.34%
+  78  Niben101Scf01143g06001.1|Nicotiana_benthamiana|SBP|Niben101Scf01143g06001.1   70.57%    passed     16.18%
+  79  Niben101Scf03056g00007.1|Nicotiana_benthamiana|SBP|Niben101Scf03056g00007.1   70.52%    passed      8.65%
+  80  Solyc12g038520.1.1                                                            74.84%    failed      2.38%
+  81  Niben101Scf00337g06003.1|Nicotiana_benthamiana|SBP|Niben101Scf00337g06003.1   78.04%    failed      0.21%
+  82  Niben101Scf01531g00004.1|Nicotiana_benthamiana|SBP|Niben101Scf01531g00004.1   75.29%    failed      0.05%
+  83  Niben101Scf00495g02016.1|Nicotiana_benthamiana|SBP|Niben101Scf00495g02016.1   83.66%    failed      0.99%
+  84  Niben101Scf04350g03001.1|Nicotiana_benthamiana|SBP|Niben101Scf04350g03001.1   92.31%    failed      0.04%
+  85  Solyc10g009080.2.1                                                            92.36%    failed      0.03%
+  86  Solyc02g077920.2.1                                                            92.31%    failed      3.18%
+  87  Niben101Scf08791g03011.1|Nicotiana_benthamiana|SBP|Niben101Scf08791g03011.1   92.31%    failed      0.46%
+  88  Niben101Scf19266g01002.1|Nicotiana_benthamiana|SBP|Niben101Scf19266g01002.1   92.31%    failed      0.18%
+WARNING: 78 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                         75.56%  53 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: AtSPL11.3 is identical to AtSPL11.2 but kept for subsequent analysis
+NOTE: AtSPL10.1 is identical to AtSPL10.2 but kept for subsequent analysis
+NOTE: AtSPL2.2 is identical to AtSPL2.3 but kept for subsequent analysis
+NOTE: AtSPL13a.1 is identical to AtSPL13a.2 but kept for subsequent analysis
+NOTE: AtSPL4.1 is identical to AtSPL4.2 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.0017488 secs
+Identifying sites to remove: done in 0.011418 secs using 136.8% CPU
+NOTE: 6 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: AtSPL11.1 (identical to AtSPL11.2) is ignored but added at the end
+NOTE: AtSPL11.4 (identical to AtSPL11.2) is ignored but added at the end
+NOTE: AtSPL10.4 (identical to AtSPL10.2) is ignored but added at the end
+NOTE: AtSPL10.3 (identical to AtSPL10.2) is ignored but added at the end
+NOTE: AtSPL2.1 (identical to AtSPL2.3) is ignored but added at the end
+NOTE: AtSPL13b.1 (identical to AtSPL13a.2) is ignored but added at the end
+Alignment was printed to C:/Users/austm/Documents/UW Grad School/Coursework/2023 Spring/Phylo563/myProject/Data/Fam_SBP_CDS_aligned_muscle.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to C:/Users/austm/Documents/UW Grad School/Coursework/2023 Spring/Phylo563/myProject/Data/Fam_SBP_CDS_aligned_muscle.fasta.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.075 seconds
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Optimizing NNI: done in 0.926116 secs using 99.54% CPU
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -93035.500
+2. Current log-likelihood: -93034.426
+Optimal log-likelihood: -93034.108
+Rate parameters:  A-C: 1.30021  A-G: 2.26076  A-T: 1.16736  C-G: 1.04562  C-T: 2.33957  G-T: 1.00000
+Base frequencies:  A: 0.279  C: 0.216  G: 0.241  T: 0.264
+Proportion of invariable sites: 0.006
+Gamma shape alpha: 2.296
+Parameters optimization took 2 rounds (0.536 sec)
+Time for fast ML tree search: 3.821 seconds
+
+NOTE: ModelFinder requires 108 MB RAM!
+ModelFinder will test up to 484 DNA models (sample size: 5342) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  GTR+F         94477.553    169 189293.107   189304.217   190405.694
+  2  GTR+F+I       94230.097    170 188800.195   188811.438   189919.365
+  3  GTR+F+G4      93099.557    170 186539.115   186550.358   187658.285
+  4  GTR+F+I+G4    93034.076    171 186410.152   186421.530   187535.905
+  5  GTR+F+R2      92952.225    171 186246.449   186257.827   187372.203
+  6  GTR+F+R3      92752.865    173 185851.731   185863.380   186990.651
+  7  GTR+F+R4      92703.862    175 185757.724   185769.648   186909.811
+  8  GTR+F+R5      92696.568    177 185747.136   185759.338   186912.390
+ 14  GTR+F+I+I+R2  92917.287    172 186178.575   186190.088   187310.912
+ 15  GTR+F+I+I+R3  92732.279    174 185812.558   185824.345   186958.062
+ 16  GTR+F+I+I+R4  92703.813    176 185759.626   185771.688   186918.296
+ 17  GTR+F+I+I+R5  92697.626    178 185751.252   185763.594   186923.089
+ 29  SYM+R4        92738.228    172 185820.456   185831.969   186952.793
+ 30  SYM+R5        92732.292    174 185812.584   185824.370   186958.088
+ 38  SYM+I+I+R4    92739.246    173 185824.493   185836.142   186963.413
+ 51  TVM+F+R4      92703.708    174 185755.417   185767.203   186900.921
+ 52  TVM+F+R5      92696.651    176 185745.302   185757.365   186903.973
+ 60  TVM+F+I+I+R4  92703.820    175 185757.640   185769.564   186909.727
+ 73  TVMe+R4       92748.598    171 185839.196   185850.574   186964.950
+ 74  TVMe+R5       92741.840    173 185829.680   185841.330   186968.601
+ 82  TVMe+I+I+R4   92751.278    172 185846.555   185858.069   186978.893
+ 95  TIM3+F+R4     92721.369    173 185788.737   185800.387   186927.658
+ 96  TIM3+F+R5     92714.270    175 185778.539   185790.464   186930.627
+104  TIM3+F+I+I+R4 92721.532    174 185791.065   185802.851   186936.569
+117  TIM3e+R4      92787.921    170 185915.841   185927.085   187035.012
+118  TIM3e+R5      92780.155    172 185904.310   185915.823   187036.647
+126  TIM3e+I+I+R4  92788.688    171 185919.377   185930.755   187045.130
+139  TIM2+F+R4     92707.012    173 185760.023   185771.673   186898.944
+140  TIM2+F+R5     92700.312    175 185750.623   185762.547   186902.710
+148  TIM2+F+I+I+R4 92708.156    174 185764.313   185776.099   186909.817
+161  TIM2e+R4      92745.687    170 185831.375   185842.618   186950.545
+162  TIM2e+R5      92740.315    172 185824.630   185836.144   186956.967
+170  TIM2e+I+I+R4  92746.995    171 185835.989   185847.367   186961.743
+183  TIM+F+R4      92724.407    173 185794.813   185806.463   186933.734
+184  TIM+F+R5      92717.492    175 185784.984   185796.908   186937.071
+192  TIM+F+I+I+R4  92725.438    174 185798.876   185810.662   186944.380
+205  TIMe+R4       92793.281    170 185926.561   185937.805   187045.732
+206  TIMe+R5       92786.329    172 185916.658   185928.172   187048.996
+214  TIMe+I+I+R4   92794.197    171 185930.395   185941.773   187056.149
+227  TPM3u+F+R4    92720.539    172 185785.077   185796.591   186917.415
+228  TPM3u+F+R5    92714.543    174 185777.087   185788.873   186922.591
+236  TPM3u+F+I+I+R4 92721.556    173 185789.111   185800.761   186928.032
+249  TPM3+R4       92798.325    169 185934.649   185945.759   187047.236
+250  TPM3+R5       92790.039    171 185922.077   185933.455   187047.831
+258  TPM3+I+I+R4   92799.292    170 185938.584   185949.828   187057.755
+271  TPM2u+F+R4    92706.900    172 185757.800   185769.313   186890.137
+272  TPM2u+F+R5    92700.108    174 185748.216   185760.002   186893.720
+280  TPM2u+F+I+I+R4 92708.167    173 185762.334   185773.984   186901.255
+293  TPM2+R4       92755.862    169 185849.724   185860.834   186962.311
+294  TPM2+R5       92749.888    171 185841.777   185853.155   186967.531
+302  TPM2+I+I+R4   92758.083    170 185856.166   185867.410   186975.337
+315  K3Pu+F+R4     92724.310    172 185792.620   185804.133   186924.957
+316  K3Pu+F+R5     92717.482    174 185782.964   185794.750   186928.468
+324  K3Pu+F+I+I+R4 92725.447    173 185796.895   185808.544   186935.815
+337  K3P+R4        92803.614    169 185945.229   185956.339   187057.816
+338  K3P+R5        92796.187    171 185934.373   185945.751   187060.127
+346  K3P+I+I+R4    92804.860    170 185949.719   185960.963   187068.890
+359  TN+F+R4       92724.373    172 185792.747   185804.260   186925.084
+360  TN+F+R5       92717.457    174 185782.914   185794.701   186928.418
+368  TN+F+I+I+R4   92725.507    173 185797.013   185808.663   186935.934
+381  TNe+R4        92794.799    169 185927.598   185938.708   187040.185
+382  TNe+R5        92787.735    171 185917.469   185928.847   187043.223
+390  TNe+I+I+R4    92795.670    170 185931.341   185942.584   187050.511
+403  HKY+F+R4      92724.373    171 185790.747   185802.125   186916.501
+404  HKY+F+R5      92717.532    173 185781.065   185792.714   186919.985
+412  HKY+F+I+I+R4  92725.514    172 185795.027   185806.540   186927.364
+425  K2P+R4        92805.035    168 185946.070   185957.047   187052.073
+426  K2P+R5        92797.554    170 185935.108   185946.351   187054.278
+434  K2P+I+I+R4    92806.262    169 185950.524   185961.634   187063.111
+447  F81+F+R4      93372.290    170 187084.580   187095.823   188203.750
+448  F81+F+R5      93367.846    172 187079.691   187091.205   188212.028
+456  F81+F+I+I+R4  93374.939    171 187091.877   187103.255   188217.631
+469  JC+R4         93409.991    167 187153.982   187164.827   188253.402
+470  JC+R5         93404.969    169 187147.938   187159.048   188260.525
+478  JC+I+I+R4     93412.470    168 187160.941   187171.918   188266.944
+Akaike Information Criterion:           TVM+F+R5
+Corrected Akaike Information Criterion: TVM+F+R5
+Bayesian Information Criterion:         TPM2u+F+R4
+Best-fit model: TPM2u+F+R4 chosen according to BIC
+
+All model information printed to C:/Users/austm/Documents/UW Grad School/Coursework/2023 Spring/Phylo563/myProject/Data/Fam_SBP_CDS_aligned_muscle.fasta.model.gz
+CPU time for ModelFinder: 3812.672 seconds (1h:3m:32s)
+Wall-clock time for ModelFinder: 4471.638 seconds (1h:14m:31s)
+
+NOTE: 43 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -92706.900
+Optimal log-likelihood: -92706.796
+Rate parameters:  A-C: 1.18804  A-G: 2.21253  A-T: 1.18804  C-G: 1.00000  C-T: 2.21253  G-T: 1.00000
+Base frequencies:  A: 0.279  C: 0.216  G: 0.241  T: 0.264
+Site proportion and rates:  (0.041,0.085) (0.074,0.348) (0.435,0.784) (0.450,1.399)
+Parameters optimization took 1 rounds (0.588 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.0501491 secs using 93.47% CPU
+Computing ML distances took 0.053453 sec (of wall-clock time) 0.046875 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.0005 secs
+Constructing RapidNJ tree: done in 0.000944 secs
+Computing RapidNJ tree took 0.001548 sec (of wall-clock time) 0.000000 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -92985.918
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 6.561 second
+Computing log-likelihood of 98 initial trees ... 8.280 seconds
+Current best score: -92706.796
+
+Do NNI search on 20 best initial trees
+Optimizing NNI: done in 0.583468 secs using 101.8% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -92686.175
+Optimizing NNI: done in 1.48982 secs using 100.7% CPU
+Optimizing NNI: done in 1.38656 secs using 99.17% CPU
+Optimizing NNI: done in 1.24987 secs using 100% CPU
+Optimizing NNI: done in 1.5708 secs using 99.47% CPU
+Optimizing NNI: done in 1.17371 secs using 99.84% CPU
+Optimizing NNI: done in 1.21231 secs using 100.5% CPU
+Optimizing NNI: done in 1.03939 secs using 100.7% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 8: -92681.928
+Optimizing NNI: done in 1.46978 secs using 99.93% CPU
+Optimizing NNI: done in 1.54785 secs using 98.93% CPU
+Iteration 10 / LogL: -92681.952 / Time: 0h:0m:31s
+Optimizing NNI: done in 1.24936 secs using 100.1% CPU
+Optimizing NNI: done in 1.94864 secs using 99.43% CPU
+Optimizing NNI: done in 1.25107 secs using 99.91% CPU
+Optimizing NNI: done in 1.28796 secs using 99.48% CPU
+Optimizing NNI: done in 1.27077 secs using 99.59% CPU
+Optimizing NNI: done in 1.16101 secs using 99.59% CPU
+Optimizing NNI: done in 1.46509 secs using 98.12% CPU
+Optimizing NNI: done in 1.2053 secs using 101.1% CPU
+Optimizing NNI: done in 1.05403 secs using 99.32% CPU
+Optimizing NNI: done in 1.3139 secs using 99.89% CPU
+Iteration 20 / LogL: -92712.413 / Time: 0h:0m:45s
+Finish initializing candidate tree set (14)
+Current best tree score: -92681.928 / CPU time: 43.831
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Optimizing NNI: done in 1.2449 secs using 100.4% CPU
+Optimizing NNI: done in 1.64203 secs using 99.91% CPU
+Optimizing NNI: done in 1.35984 secs using 99.97% CPU
+Optimizing NNI: done in 1.32509 secs using 100.2% CPU
+Optimizing NNI: done in 1.03026 secs using 100.1% CPU
+Optimizing NNI: done in 1.31397 secs using 101.1% CPU
+Optimizing NNI: done in 1.04013 secs using 99.15% CPU
+Optimizing NNI: done in 1.74182 secs using 99.57% CPU
+Optimizing NNI: done in 1.39066 secs using 100% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 29: -92680.177
+Optimizing NNI: done in 1.6825 secs using 100.3% CPU
+Iteration 30 / LogL: -92682.264 / Time: 0h:0m:59s (0h:3m:24s left)
+Optimizing NNI: done in 1.55383 secs using 99.55% CPU
+Optimizing NNI: done in 1.54465 secs using 99.13% CPU
+Optimizing NNI: done in 1.48337 secs using 100.1% CPU
+Optimizing NNI: done in 1.65354 secs using 98.27% CPU
+Optimizing NNI: done in 1.12364 secs using 100.1% CPU
+Optimizing NNI: done in 1.34139 secs using 100.2% CPU
+Optimizing NNI: done in 1.47884 secs using 99.32% CPU
+Optimizing NNI: done in 1.27161 secs using 99.53% CPU
+Optimizing NNI: done in 1.18603 secs using 100.1% CPU
+Optimizing NNI: done in 1.30533 secs using 100.5% CPU
+Iteration 40 / LogL: -92680.840 / Time: 0h:1m:13s (0h:2m:48s left)
+Optimizing NNI: done in 1.94275 secs using 99.73% CPU
+UPDATE BEST LOG-LIKELIHOOD: -92680.172
+Optimizing NNI: done in 1.32813 secs using 100% CPU
+Optimizing NNI: done in 1.5212 secs using 100.7% CPU
+Optimizing NNI: done in 1.48663 secs using 99.85% CPU
+Optimizing NNI: done in 1.48972 secs using 100.7% CPU
+Optimizing NNI: done in 1.18246 secs using 97.78% CPU
+Optimizing NNI: done in 1.22858 secs using 99.2% CPU
+Optimizing NNI: done in 1.55144 secs using 98.7% CPU
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -92679.827
+Optimizing NNI: done in 2.32918 secs using 85.87% CPU
+Optimizing NNI: done in 2.03953 secs using 94.23% CPU
+Iteration 50 / LogL: -92690.703 / Time: 0h:1m:30s (0h:2m:26s left)
+Optimizing NNI: done in 2.74087 secs using 83.8% CPU
+Optimizing NNI: done in 2.71326 secs using 82.93% CPU
+Optimizing NNI: done in 3.65811 secs using 81.16% CPU
+Optimizing NNI: done in 2.36826 secs using 91.05% CPU
+Optimizing NNI: done in 3.74782 secs using 71.29% CPU
+Optimizing NNI: done in 2.26581 secs using 90.34% CPU
+Optimizing NNI: done in 1.94879 secs using 96.21% CPU
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -92679.591
+Optimizing NNI: done in 1.88303 secs using 92.94% CPU
+Optimizing NNI: done in 2.20835 secs using 84.2% CPU
+Optimizing NNI: done in 1.66668 secs using 98.44% CPU
+Iteration 60 / LogL: -92680.362 / Time: 0h:1m:57s (0h:2m:17s left)
+Optimizing NNI: done in 1.55836 secs using 98.26% CPU
+Optimizing NNI: done in 1.72309 secs using 98.84% CPU
+Optimizing NNI: done in 2.17938 secs using 99.66% CPU
+Optimizing NNI: done in 1.26797 secs using 97.35% CPU
+Optimizing NNI: done in 2.03137 secs using 93.07% CPU
+Optimizing NNI: done in 2.50569 secs using 97.9% CPU
+Optimizing NNI: done in 1.91604 secs using 96.23% CPU
+Optimizing NNI: done in 1.3824 secs using 100.6% CPU
+Optimizing NNI: done in 1.3138 secs using 99.9% CPU
+Optimizing NNI: done in 1.65112 secs using 100.3% CPU
+Iteration 70 / LogL: -92682.991 / Time: 0h:2m:15s (0h:1m:55s left)
+Optimizing NNI: done in 1.67926 secs using 100.5% CPU
+Optimizing NNI: done in 1.35347 secs using 100.4% CPU
+Optimizing NNI: done in 1.27334 secs using 99.39% CPU
+Optimizing NNI: done in 1.34839 secs using 99.66% CPU
+Optimizing NNI: done in 1.9003 secs using 100.3% CPU
+Optimizing NNI: done in 1.89949 secs using 100.4% CPU
+Optimizing NNI: done in 1.55573 secs using 99.43% CPU
+Optimizing NNI: done in 1.61707 secs using 97.59% CPU
+Optimizing NNI: done in 1.24557 secs using 100.4% CPU
+Optimizing NNI: done in 1.66298 secs using 99.6% CPU
+Iteration 80 / LogL: -92712.786 / Time: 0h:2m:30s (0h:1m:33s left)
+Optimizing NNI: done in 1.7953 secs using 100.1% CPU
+Optimizing NNI: done in 1.33605 secs using 99.41% CPU
+Optimizing NNI: done in 1.18538 secs using 100.2% CPU
+Optimizing NNI: done in 1.86268 secs using 99.82% CPU
+Optimizing NNI: done in 1.42341 secs using 99.89% CPU
+Optimizing NNI: done in 1.67482 secs using 100.8% CPU
+Optimizing NNI: done in 1.51436 secs using 100.1% CPU
+Optimizing NNI: done in 1.24044 secs using 99.51% CPU
+Optimizing NNI: done in 1.46193 secs using 99.4% CPU
+Optimizing NNI: done in 2.37594 secs using 99.3% CPU
+Iteration 90 / LogL: -92686.923 / Time: 0h:2m:46s (0h:1m:13s left)
+Optimizing NNI: done in 1.28299 secs using 98.65% CPU
+Optimizing NNI: done in 1.57259 secs using 99.36% CPU
+Optimizing NNI: done in 1.56402 secs using 99.9% CPU
+Optimizing NNI: done in 1.49122 secs using 100.6% CPU
+Optimizing NNI: done in 1.22749 secs using 100.6% CPU
+Optimizing NNI: done in 1.61664 secs using 98.58% CPU
+Optimizing NNI: done in 1.38889 secs using 100.1% CPU
+Optimizing NNI: done in 1.44634 secs using 100.5% CPU
+Optimizing NNI: done in 2.04934 secs using 99.88% CPU
+Optimizing NNI: done in 1.64961 secs using 99.46% CPU
+Iteration 100 / LogL: -92679.604 / Time: 0h:3m:2s (0h:0m:53s left)
+Optimizing NNI: done in 1.37872 secs using 98.6% CPU
+Optimizing NNI: done in 1.64266 secs using 100.8% CPU
+Optimizing NNI: done in 1.64249 secs using 99.89% CPU
+Optimizing NNI: done in 1.50136 secs using 98.87% CPU
+Optimizing NNI: done in 1.45573 secs using 100.9% CPU
+Optimizing NNI: done in 1.65783 secs using 99.9% CPU
+Optimizing NNI: done in 1.54177 secs using 100.3% CPU
+Optimizing NNI: done in 1.28947 secs using 100.6% CPU
+Optimizing NNI: done in 1.48291 secs using 100.1% CPU
+Optimizing NNI: done in 1.57447 secs using 100.2% CPU
+Iteration 110 / LogL: -92680.298 / Time: 0h:3m:17s (0h:0m:34s left)
+Optimizing NNI: done in 1.62039 secs using 99.32% CPU
+Optimizing NNI: done in 1.10789 secs using 100.1% CPU
+Optimizing NNI: done in 1.49236 secs using 99.47% CPU
+Optimizing NNI: done in 1.265 secs using 100% CPU
+Optimizing NNI: done in 1.387 secs using 100.3% CPU
+Optimizing NNI: done in 1.6116 secs using 99.86% CPU
+Optimizing NNI: done in 1.86474 secs using 100.6% CPU
+Optimizing NNI: done in 1.12922 secs using 98.24% CPU
+Optimizing NNI: done in 1.84497 secs using 100.8% CPU
+Optimizing NNI: done in 1.62961 secs using 99.72% CPU
+Iteration 120 / LogL: -92682.425 / Time: 0h:3m:32s (0h:0m:16s left)
+Optimizing NNI: done in 1.60187 secs using 100.5% CPU
+Optimizing NNI: done in 1.54073 secs using 100.4% CPU
+Optimizing NNI: done in 1.37486 secs using 97.74% CPU
+Optimizing NNI: done in 1.54984 secs using 99.81% CPU
+Optimizing NNI: done in 1.26048 secs using 100.4% CPU
+Optimizing NNI: done in 1.17643 secs using 99.61% CPU
+Optimizing NNI: done in 1.40491 secs using 98.98% CPU
+Optimizing NNI: done in 1.43743 secs using 100% CPU
+Optimizing NNI: done in 1.73218 secs using 100.1% CPU
+Optimizing NNI: done in 1.17752 secs using 99.52% CPU
+Iteration 130 / LogL: -92681.218 / Time: 0h:3m:47s (0h:0m:-2s left)
+TREE SEARCH COMPLETED AFTER 130 ITERATIONS / Time: 0h:3m:47s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -92679.591
+2. Current log-likelihood: -92679.544
+3. Current log-likelihood: -92679.498
+4. Current log-likelihood: -92679.451
+5. Current log-likelihood: -92679.410
+6. Current log-likelihood: -92679.367
+7. Current log-likelihood: -92679.327
+8. Current log-likelihood: -92679.289
+9. Current log-likelihood: -92679.253
+10. Current log-likelihood: -92679.217
+11. Current log-likelihood: -92679.183
+12. Current log-likelihood: -92679.149
+13. Current log-likelihood: -92679.117
+14. Current log-likelihood: -92679.085
+15. Current log-likelihood: -92679.054
+16. Current log-likelihood: -92679.024
+17. Current log-likelihood: -92678.994
+18. Current log-likelihood: -92678.966
+19. Current log-likelihood: -92678.938
+20. Current log-likelihood: -92678.915
+21. Current log-likelihood: -92678.887
+22. Current log-likelihood: -92678.867
+23. Current log-likelihood: -92678.839
+24. Current log-likelihood: -92678.819
+25. Current log-likelihood: -92678.797
+26. Current log-likelihood: -92678.777
+27. Current log-likelihood: -92678.756
+28. Current log-likelihood: -92678.736
+29. Current log-likelihood: -92678.716
+30. Current log-likelihood: -92678.697
+31. Current log-likelihood: -92678.677
+32. Current log-likelihood: -92678.658
+33. Current log-likelihood: -92678.640
+34. Current log-likelihood: -92678.622
+35. Current log-likelihood: -92678.604
+36. Current log-likelihood: -92678.588
+37. Current log-likelihood: -92678.571
+38. Current log-likelihood: -92678.554
+39. Current log-likelihood: -92678.538
+40. Current log-likelihood: -92678.522
+41. Current log-likelihood: -92678.507
+42. Current log-likelihood: -92678.491
+43. Current log-likelihood: -92678.476
+44. Current log-likelihood: -92678.461
+45. Current log-likelihood: -92678.447
+46. Current log-likelihood: -92678.433
+47. Current log-likelihood: -92678.419
+48. Current log-likelihood: -92678.406
+49. Current log-likelihood: -92678.393
+50. Current log-likelihood: -92678.380
+51. Current log-likelihood: -92678.367
+52. Current log-likelihood: -92678.355
+53. Current log-likelihood: -92678.343
+54. Current log-likelihood: -92678.331
+55. Current log-likelihood: -92678.320
+56. Current log-likelihood: -92678.308
+57. Current log-likelihood: -92678.297
+Optimal log-likelihood: -92678.285
+Rate parameters:  A-C: 1.18331  A-G: 2.20173  A-T: 1.18331  C-G: 1.00000  C-T: 2.20173  G-T: 1.00000
+Base frequencies:  A: 0.279  C: 0.216  G: 0.241  T: 0.264
+Site proportion and rates:  (0.040,0.076) (0.072,0.338) (0.426,0.778) (0.461,1.389)
+Parameters optimization took 57 rounds (26.473 sec)
+BEST SCORE FOUND : -92678.285
+Total tree length: 36.233
+
+Total number of iterations: 130
+CPU time used for tree search: 220.781 sec (0h:3m:40s)
+Wall-clock time used for tree search: 225.873 sec (0h:3m:45s)
+Total CPU time used: 248.750 sec (0h:4m:8s)
+Total wall-clock time used: 253.869 sec (0h:4m:13s)
+
+Analysis results written to: 
+  IQ-TREE report:                C:/Users/austm/Documents/UW Grad School/Coursework/2023 Spring/Phylo563/myProject/Data/Fam_SBP_CDS_aligned_muscle.fasta.iqtree
+  Maximum-likelihood tree:       C:/Users/austm/Documents/UW Grad School/Coursework/2023 Spring/Phylo563/myProject/Data/Fam_SBP_CDS_aligned_muscle.fasta.treefile
+  Likelihood distances:          C:/Users/austm/Documents/UW Grad School/Coursework/2023 Spring/Phylo563/myProject/Data/Fam_SBP_CDS_aligned_muscle.fasta.mldist
+  Screen log file:               C:/Users/austm/Documents/UW Grad School/Coursework/2023 Spring/Phylo563/myProject/Data/Fam_SBP_CDS_aligned_muscle.fasta.log
+
+Date and Time: Tue Apr 11 13:53:57 2023
